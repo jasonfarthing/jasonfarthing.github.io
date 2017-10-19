@@ -2,31 +2,36 @@
 
 <head>
     <title>jason farthing portfolio site</title>
-    <link href="css/style.css" type="text/css" rel="stylesheet">
+    <link href="assets/css/reset.css" type="text/css" rel="stylesheet">
+    <link href="assets/css/style.css" type="text/css" rel="stylesheet">
 </head>
 
 <body>
-
     <div class="siteheader">
-        <h1>Jason Farthing</h1>
-        <a href="#">About Me |</a>
-        <a href="#"> Contact |</a>
-        <a href="#"> Portfolio</a>
+        <div id="name">
+            <h1>Jason Farthing</h1>
+        </div>
 
+        <div class="topnav">
+            <a href="#index">About</a>
+            <a href="#portfolio"> Portfolio</a>
+            <a href="#contact"> Contact</a>
+        </div>
     </div>
 
-    <div class="about">
 
-        <h2>About Me</h2>
-        <img id="bio-image" src="assets/jasonheadshot200px.jpg" alt="Jason Farthing">
+    <div id="about">
 
-        <p>I studied Graphic Design and Drawing at Colorado State University. I am working as a Front End Web Designer and concurrently
+        <h2 id="about-text">About Me</h2>
+        <img id="bio-image" src="assets/images/jasonheadshot200px.jpg" alt="Jason Farthing">
+
+        <p id="bio-text">I studied Graphic Design and Drawing at Colorado State University. I am working as a Front End Web Designer and concurrently
             studying Full Stack Web Development to expand my knowledge of web design to be the best designer/developer that
             I can be.
         </p>
     </div>
 
-    <div class="connect">
+    <div id="connect">
         <h2>Let's Connect</h2>
         <a href="https://github.com/jasonfarthing" ; target="blank">
             <img id="github" src="#" alt="git hub logo">
@@ -37,12 +42,12 @@
         <a href="https://stackoverflow.com/users/8760150/jasonfarthing" ; target="blank">
             <img id="stack" src="#" alt="stack overflow logo">
         </a>
-
     </div>
 
 
+
     <div class="pagefooter">
-        <p>Contact information:
+        <p id="contact-info">Contact information:
             <a href="mailto:jasonfarthingisnow@gmail.com">jasonfarthingisnow@gmail.com</a>
         </p>
     </div>
