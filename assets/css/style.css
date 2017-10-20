@@ -98,6 +98,7 @@ h2{
     background: rgba(8, 8, 8, 0.75);
     margin-top: 80px;
     margin-left: 100px;
+    margin-bottom: 40px;
 }
 
 #connect {
@@ -168,4 +169,12 @@ input {
     background: red;
     color: white;
     margin: 0px 0px 15px 20px;
+}
+
+/*css for portfolio page*/
+.column {
+    
+    width: 35%;
+    padding: 20px;
+    float: left;
 }
